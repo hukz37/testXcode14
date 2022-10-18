@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'testxcode14_Example' do
+  pod 'testxcode14', :path => '../'
+
+  target 'testxcode14_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
