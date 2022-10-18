@@ -277,7 +277,6 @@
         {
             prev.title = previousBarButtonConfiguration.title;
             prev.accessibilityLabel = previousBarButtonConfiguration.accessibilityLabel;
-            prev.accessibilityIdentifier = prev.accessibilityLabel;
             prev.image = previousBarButtonConfiguration.image;
             prev.target = target;
             prev.action = previousBarButtonConfiguration.action;
@@ -287,7 +286,6 @@
             prev = [[IQBarButtonItem alloc] initWithImage:previousBarButtonConfiguration.image style:UIBarButtonItemStylePlain target:target action:previousBarButtonConfiguration.action];
             prev.invocation = toolbar.previousBarButton.invocation;
             prev.accessibilityLabel = previousBarButtonConfiguration.accessibilityLabel;
-            prev.accessibilityIdentifier = prev.accessibilityLabel;
             prev.enabled = toolbar.previousBarButton.enabled;
             prev.tag = toolbar.previousBarButton.tag;
             toolbar.previousBarButton = prev;
@@ -297,7 +295,6 @@
             prev = [[IQBarButtonItem alloc] initWithTitle:previousBarButtonConfiguration.title style:UIBarButtonItemStylePlain target:target action:previousBarButtonConfiguration.action];
             prev.invocation = toolbar.previousBarButton.invocation;
             prev.accessibilityLabel = previousBarButtonConfiguration.accessibilityLabel;
-            prev.accessibilityIdentifier = prev.accessibilityLabel;
             prev.enabled = toolbar.previousBarButton.enabled;
             prev.tag = toolbar.previousBarButton.tag;
             toolbar.previousBarButton = prev;
@@ -307,7 +304,6 @@
             prev = [[IQBarButtonItem alloc] initWithBarButtonSystemItem:previousBarButtonConfiguration.barButtonSystemItem target:target action:previousBarButtonConfiguration.action];
             prev.invocation = toolbar.previousBarButton.invocation;
             prev.accessibilityLabel = previousBarButtonConfiguration.accessibilityLabel;
-            prev.accessibilityIdentifier = prev.accessibilityLabel;
             prev.enabled = toolbar.previousBarButton.enabled;
             prev.tag = toolbar.previousBarButton.tag;
             toolbar.previousBarButton = prev;
@@ -329,7 +325,6 @@
         {
             next.title = nextBarButtonConfiguration.title;
             next.accessibilityLabel = nextBarButtonConfiguration.accessibilityLabel;
-            next.accessibilityIdentifier = next.accessibilityLabel;
             next.image = nextBarButtonConfiguration.image;
             next.target = target;
             next.action = nextBarButtonConfiguration.action;
@@ -339,7 +334,6 @@
             next = [[IQBarButtonItem alloc] initWithImage:nextBarButtonConfiguration.image style:UIBarButtonItemStylePlain target:target action:nextBarButtonConfiguration.action];
             next.invocation = toolbar.nextBarButton.invocation;
             next.accessibilityLabel = nextBarButtonConfiguration.accessibilityLabel;
-            next.accessibilityIdentifier = next.accessibilityLabel;
             next.enabled = toolbar.nextBarButton.enabled;
             next.tag = toolbar.nextBarButton.tag;
             toolbar.nextBarButton = next;
@@ -349,7 +343,6 @@
             next = [[IQBarButtonItem alloc] initWithTitle:nextBarButtonConfiguration.title style:UIBarButtonItemStylePlain target:target action:nextBarButtonConfiguration.action];
             next.invocation = toolbar.nextBarButton.invocation;
             next.accessibilityLabel = nextBarButtonConfiguration.accessibilityLabel;
-            next.accessibilityIdentifier = next.accessibilityLabel;
             next.enabled = toolbar.nextBarButton.enabled;
             next.tag = toolbar.nextBarButton.tag;
             toolbar.nextBarButton = next;
@@ -359,7 +352,6 @@
             next = [[IQBarButtonItem alloc] initWithBarButtonSystemItem:nextBarButtonConfiguration.barButtonSystemItem target:target action:nextBarButtonConfiguration.action];
             next.invocation = toolbar.nextBarButton.invocation;
             next.accessibilityLabel = nextBarButtonConfiguration.accessibilityLabel;
-            next.accessibilityIdentifier = next.accessibilityLabel;
             next.enabled = toolbar.nextBarButton.enabled;
             next.tag = toolbar.nextBarButton.tag;
             toolbar.nextBarButton = next;
@@ -394,7 +386,6 @@
         {
             done.title = rightBarButtonConfiguration.title;
             done.accessibilityLabel = rightBarButtonConfiguration.accessibilityLabel;
-            done.accessibilityIdentifier = done.accessibilityLabel;
             done.image = rightBarButtonConfiguration.image;
             done.target = target;
             done.action = rightBarButtonConfiguration.action;
@@ -404,7 +395,6 @@
             done = [[IQBarButtonItem alloc] initWithImage:rightBarButtonConfiguration.image style:UIBarButtonItemStylePlain target:target action:rightBarButtonConfiguration.action];
             done.invocation = toolbar.doneBarButton.invocation;
             done.accessibilityLabel = rightBarButtonConfiguration.accessibilityLabel;
-            done.accessibilityIdentifier = done.accessibilityLabel;
             done.enabled = toolbar.doneBarButton.enabled;
             done.tag = toolbar.doneBarButton.tag;
             toolbar.doneBarButton = done;
@@ -414,7 +404,6 @@
             done = [[IQBarButtonItem alloc] initWithTitle:rightBarButtonConfiguration.title style:UIBarButtonItemStylePlain target:target action:rightBarButtonConfiguration.action];
             done.invocation = toolbar.doneBarButton.invocation;
             done.accessibilityLabel = rightBarButtonConfiguration.accessibilityLabel;
-            done.accessibilityIdentifier = done.accessibilityLabel;
             done.enabled = toolbar.doneBarButton.enabled;
             done.tag = toolbar.doneBarButton.tag;
             toolbar.doneBarButton = done;
@@ -424,7 +413,6 @@
             done = [[IQBarButtonItem alloc] initWithBarButtonSystemItem:rightBarButtonConfiguration.barButtonSystemItem target:target action:rightBarButtonConfiguration.action];
             done.invocation = toolbar.doneBarButton.invocation;
             done.accessibilityLabel = rightBarButtonConfiguration.accessibilityLabel;
-            done.accessibilityIdentifier = done.accessibilityLabel;
             done.enabled = toolbar.doneBarButton.enabled;
             done.tag = toolbar.doneBarButton.tag;
             toolbar.doneBarButton = done;
