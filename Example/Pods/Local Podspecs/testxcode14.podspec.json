@@ -1,0 +1,22 @@
+{
+  "name": "testxcode14",
+  "version": "0.1.0",
+  "summary": "A short description of testxcode14.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hukz37/testxcode14",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hukz37": "595632239@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hukz37/testxcode14.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "testxcode14/Classes/**/*"
+}

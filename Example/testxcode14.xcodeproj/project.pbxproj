@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		85D2304628FEF98600152E32 /* UIView+PHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2304528FEF98600152E32 /* UIView+PHView.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BFE08C59EA3DD644C155C6B0 /* Pods_testxcode14_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAC8D305531E9B39DCF6C58 /* Pods_testxcode14_Example.framework */; };
 /* End PBXBuildFile section */
@@ -59,13 +60,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85D2304428FEF98600152E32 /* UIView+PHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+PHView.h"; sourceTree = "<group>"; };
+		85D2304528FEF98600152E32 /* UIView+PHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+PHView.m"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A001EF9A56B9870C0B7B4FCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A001EF9A56B9870C0B7B4FCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B050F0305985E51E61038638 /* Pods-testxcode14_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testxcode14_Example.release.xcconfig"; path = "Target Support Files/Pods-testxcode14_Example/Pods-testxcode14_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CCC629337539E82AC3424651 /* Pods-testxcode14_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testxcode14_Example.debug.xcconfig"; path = "Target Support Files/Pods-testxcode14_Example/Pods-testxcode14_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D683CD52A1EF16BDB895B7EF /* Pods-testxcode14_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testxcode14_Tests.debug.xcconfig"; path = "Target Support Files/Pods-testxcode14_Tests/Pods-testxcode14_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0DFE550BE715C1E86279C15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F47ADFDA5ACF63C1137FEA12 /* testxcode14.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testxcode14.podspec; path = ../testxcode14.podspec; sourceTree = "<group>"; };
+		F0DFE550BE715C1E86279C15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F47ADFDA5ACF63C1137FEA12 /* testxcode14.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testxcode14.podspec; path = ../testxcode14.podspec; sourceTree = "<group>"; };
 		F6DE41947C88AA252EA58722 /* Pods_testxcode14_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testxcode14_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +106,6 @@
 				D683CD52A1EF16BDB895B7EF /* Pods-testxcode14_Tests.debug.xcconfig */,
 				03C11F2C56FECAA82383D6C1 /* Pods-testxcode14_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PHViewController.h */,
 				6003F5A6195388D20070C39A /* PHViewController.m */,
+				85D2304428FEF98600152E32 /* UIView+PHView.h */,
+				85D2304528FEF98600152E32 /* UIView+PHView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +351,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-testxcode14_Example/Pods-testxcode14_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/testxcode14/testxcode14.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testxcode14.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PHAppDelegate.m in Sources */,
+				85D2304628FEF98600152E32 /* UIView+PHView.m in Sources */,
 				6003F5A7195388D20070C39A /* PHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

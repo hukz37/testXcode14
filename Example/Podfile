@@ -4,6 +4,10 @@ platform :ios, '10.0'
 
 target 'testxcode14_Example' do
   pod 'testxcode14', :path => '../'
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'MJRefresh'
+  pod 'IQKeyboardManager'
 
   target 'testxcode14_Tests' do
     inherit! :search_paths

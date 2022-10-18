@@ -7,6 +7,7 @@
 //
 
 #import "PHViewController.h"
+#import <testxcode14/UIView+podView.h>
 
 @interface PHViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view.backgroundColor = [UIColor redColor];
+    [view setBackgroundColor:[UIColor yellowColor]];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

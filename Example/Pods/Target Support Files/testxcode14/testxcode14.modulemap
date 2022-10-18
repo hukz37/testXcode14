@@ -1,0 +1,6 @@
+framework module testxcode14 {
+  umbrella header "testxcode14-umbrella.h"
+
+  export *
+  module * { export * }
+}
