@@ -8,7 +8,7 @@ target 'testxcode14_Example' do
   pod 'SDWebImage'
   pod 'MJRefresh'
   pod 'IQKeyboardManager', '6.5.9'
-
+  pod "Aspects"
   target 'testxcode14_Tests' do
     inherit! :search_paths
 

@@ -9,9 +9,9 @@
 
 @implementation UIView (podView)
 
-+ (void)initialize{
-    NSLog(@"pod  内 的---------initialize");
-}
+//+ (void)initialize{
+//    NSLog(@"pod  内 的---------initialize");
+//}
 
 - (void)setBackgroundColor:(UIColor *)color{
     self.backgroundColor = color;
